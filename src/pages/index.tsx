@@ -15,6 +15,7 @@ export default function Home() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
+
       <main className={inter.className}>
         <div id="quote-box">Quote of the day</div>
       </main>
