@@ -8,6 +8,7 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        {/* eslint-disable-next-line @next/next/no-sync-scripts */}
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
       </body>
     </Html>
