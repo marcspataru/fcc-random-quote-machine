@@ -1,5 +1,6 @@
+import store from "@/redux/store";
 import { Html, Head, Main, NextScript } from "next/document";
-import Script from "next/script";
+import { Provider } from "react-redux";
 
 export default function Document() {
   return (
@@ -8,8 +9,6 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        {/* eslint-disable-next-line @next/next/no-sync-scripts */}
-        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
       </body>
     </Html>
   );
